@@ -15,7 +15,7 @@
               <div class="header-column">
                   <div class="header-row sticky-logo">
                       <div class="header-logo">
-                          <a class="logo-link" href="index.html">
+                          <a class="logo-link" href="/index.ejs">
                               <img alt="Vertex" width="100" height="100" 
                                   data-sticky-width="60" 
                                   data-sticky-height="60" 
@@ -137,7 +137,7 @@
                                               <li class="dropdown-submenu">
                                                   <a class="dropdown-item dropdown-toggle" href="#">About Us</a>
                                                   <ul class="dropdown-menu">
-                                                      <li><a class="dropdown-item" href="../page/about-us.html">About Us</a></li>
+                                                      <li><a class="dropdown-item" href="/about-us.ejs">About Us</a></li>
                                                       <li><a class="dropdown-item" href="../page/about-me.html">About Me</a></li>
                                                   </ul>
                                               </li>
@@ -173,46 +173,129 @@
                                               </li>
                                           </ul>
                                       </li>
-                                      <li class="dropdown">
+                                      <li class="dropdown dropdown-mega">
                                           <a class="dropdown-item dropdown-toggle" href="#">
                                             ब्लॉग
                                           </a>
                                           <ul class="dropdown-menu">
-                                              <li class="dropdown-submenu">
-                                                  <a class="dropdown-item dropdown-toggle" href="#"><i class="icon-link menu-icon"></i> Card</a>
-                                                  <ul class="dropdown-menu">
-                                                      <li><a class="dropdown-item" href="../blog/card-left-sidebar.html">Left Sidebar</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/card-right-sidebar.html">Right Sidebar</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/card-full-width.html">Full Width</a></li>
-                                                  </ul>
-                                              </li>
-                                              <li class="dropdown-submenu">
-                                                  <a class="dropdown-item dropdown-toggle" href="#"><i class="icon-link menu-icon"></i> Grid</a>
-                                                  <ul class="dropdown-menu">
-                                                      <li><a class="dropdown-item" href="../blog/grid-left-sidebar.html">Left Sidebar</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/grid-right-sidebar.html">Right Sidebar</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/grid-full-width.html">Full Width</a></li>
-                                                  </ul>
-                                              </li>
-                                              <li class="dropdown-submenu">
-                                                  <a class="dropdown-item dropdown-toggle" href="#"><i class="icon-link menu-icon"></i> List</a>
-                                                  <ul class="dropdown-menu">
-                                                      <li><a class="dropdown-item" href="../blog/list-left-sidebar.html">Left Sidebar</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/list-right-sidebar.html">Right Sidebar</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/list-full-width.html">Full Width</a></li>
-                                                  </ul>
-                                              </li>
-                                              <li class="dropdown-submenu">
-                                                  <a class="dropdown-item dropdown-toggle" href="#"><i class="icon-link menu-icon"></i> Single</a>
-                                                  <ul class="dropdown-menu">
-                                                      <li><a class="dropdown-item" href="../blog/single.html">Default</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/single-center.html">Center View</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/single-standard.html">Standard View</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/single-video.html">Video View</a></li>
-                                                      <li><a class="dropdown-item" href="../blog/single-audio.html">Video Audio</a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
+                                            <li>
+                                                <div class="dropdown-mega-content">
+                                                    <div class="row">
+                                                        <div class="col-lg-4">
+                                                            <div class="mb-0">
+                                                                <h3 class="h5 mb-4">Trending Posts</h3>
+                                                                <div class="clearfix">
+                                                                    <div class="media mb-4">
+                                                                        <div class="w-60px mr-3">
+                                                                            <img class="pi-img-round" src="/assets/images/bls1.jpg">
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 clearfix p-0" href="#">Tourism in Dubai is booming by international tourist</a>
+                                                                            <span class="time small text-muted">Dec 17, 2019</span>
+                                                                        </div>
+                                                                    </div>
+                                  
+                                                                    <div class="media mb-4">
+                                                                        <div class="w-60px mr-3">
+                                                                            <img class="pi-img-round" src="/assets/images/bls3.jpg">
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 clearfix p-0" href="#">3 Ways to Boost Online Sales off Season</a>
+                                                                            <span class="time small text-muted">May 28, 2019</span>
+                                                                        </div>
+                                                                    </div>
+                                  
+                                                                    <div class="media mb-4">
+                                                                        <div class="w-60px mr-3">
+                                                                            <img class="pi-img-round" src="/assets/images/bls2.jpg">
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 clearfix p-0" href="#">Google Play Warns Users It Doesn’t Carry Fortnite</a>
+                                                                            <span class="time small text-muted">Jun 14, 2019</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="mb-0">
+                                                                <h3 class="h5 mb-4">Don't Miss</h3>
+                                                                <div class="clearfix">
+                                                                    <div class="media align-items-center mb-4">
+                                                                        <div class="w-60px mr-3 text-center">
+                                                                            <i class="icon-bubble-conversation-2 fs-35"></i>
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 clearfix p-0" href="#">Instant coffee was invented by a brilliant man</a>
+                                                                            <span><a href="#" class="text-dark small anim-link-2 p-0">Sophia Green</a> <span class="small">-</span> </span>
+                                                                            <span class="time small text-muted">Dec 17, 2019</span>
+                                                                        </div>
+                                                                    </div>
+                                  
+                                                                    <div class="media align-items-center mb-4">
+                                                                        <div class="w-60px mr-3 text-center">
+                                                                            <i class="icon-bubble-conversation-2 fs-35"></i>
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 clearfix p-0" href="#">The world consumes close to 2.25B cups of coffee daily</a>
+                                                                            <span><a href="#" class="text-dark small anim-link-2 p-0">Sophia Green</a> <span class="small">-</span> </span>
+                                                                            <span class="time small text-muted">Dec 17, 2019</span>
+                                                                        </div>
+                                                                    </div>
+                                  
+                                                                    <div class="media align-items-center mb-4">
+                                                                        <div class="w-60px mr-3 text-center">
+                                                                            <i class="icon-bubble-conversation-2 fs-35"></i>
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 clearfix p-0" href="#">Coffee beans aren’t beans at all, they are just fruit pits</a>
+                                                                            <span><a href="#" class="text-dark small anim-link-2 p-0">Sophia Green</a> <span class="small">-</span> </span>
+                                                                            <span class="time small text-muted">Dec 17, 2019</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="mb-0">
+                                                                <h3 class="h5 mb-4">Recent Comments</h3>
+                                                                <div class="clearfix">
+                                                                    <div class="media align-items-center mb-4">
+                                                                        <div class="w-60px mr-3 text-center">
+                                                                            <i class="icon-bubble-conversation-2 fs-35"></i>
+                                                                        </div>
+                                                                        <div class="media-body fs-15">
+                                                                            <span><a href="#" class="text-dark anim-link-2 text-style-italic p-0">Sophia Green</a> <span class="text-muted">on</span> </span>
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 text-style-italic p-0" href="#">Five reasons why in-form Leicester City will finish the job and stay up</a>
+                                                                        </div>
+                                                                    </div>
+                                  
+                                                                    <div class="media align-items-center mb-4">
+                                                                        <div class="w-60px mr-3 text-center">
+                                                                            <i class="icon-bubble-conversation-2 fs-35"></i>
+                                                                        </div>
+                                                                        <div class="media-body fs-15">
+                                                                            <span><a href="#" class="text-dark anim-link-2 text-style-italic p-0">John Doe</a> <span class="text-muted">on</span> </span>
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 text-style-italic p-0" href="#">Pasta with caramelised onions and yogurt recipe</a>
+                                                                        </div>
+                                                                    </div>
+                                  
+                                                                    <div class="media align-items-center mb-4">
+                                                                        <div class="w-60px mr-3 text-center">
+                                                                            <i class="icon-bubble-conversation-2 fs-35"></i>
+                                                                        </div>
+                                                                        <div class="media-body fs-15">
+                                                                            <span><a href="#" class="text-dark anim-link-2 text-style-italic p-0">Sophia Green</a> <span class="text-muted">on</span> </span>
+                                                                            <a class="mt-0 mb-2 text-dark anim-link-2 text-style-italic p-0" href="#">Pasta with caramelised onions and yogurt recipe</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
                                       </li>
                                       <li class="dropdown">
                                           <a class="dropdown-item dropdown-toggle" href="#">

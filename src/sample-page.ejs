@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>मौन गूँज - मुख्य पृष्ठ</title>
+    <!-- Stylesheets -->
+    <%=require('html-loader!./partials/stylesheets.html')%>
+    <!-- End Stylesheets -->
+</head>
+<body>
+    <div class="wrapper">
+        <!--Header-->
+        <%=require('html-loader!./partials/header.html')%>
+        <!--End Header-->
+
+        <main class="main-content">
+            <%=require('html-loader!./partials/section-pt-2.html')%>
+            <!-- theme-banner-four -->
+            <!-- <%=require('html-loader!./partials/theme-banner-four.html')%> -->
+            <!-- end theme-banner-four -->
+            
+            
+        </main>
+
+        <!--Footer-Wrap-->
+        <footer class="border-top border-bottom bg-light">
+            <!-- footer-content -->
+            <%=require('html-loader!./partials/footer-content.html')%>
+            <!-- end footer-content -->
+
+            <hr class="mt-0 mb-1">
+
+            <!-- Copyright -->
+            <%=require('html-loader!./partials/copyrights.html')%>
+            <!-- End Copyright -->
+        </footer>
+        <!--End Footer-Wrap-->
+    </div>
+    <%=require('html-loader!./partials/javascripts.html')%>
+</body>
+</html>

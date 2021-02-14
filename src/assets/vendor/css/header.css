@@ -263,12 +263,17 @@
 	color: #2380fb;
 	position: absolute;
 	bottom: -45px;
-	left: 10px;
+	left: 0;
+	width: 7rem;
 }
 
 .body-scrolled #header .header-title {
-	bottom: 5px;
+	bottom: 12px;
   left: 6rem;
+}
+
+.body-scrolled #header .header-title h3 {
+	font-size: 1.3rem;
 }
 
 html:not(.sticky-header-active) .body-scrolled #header .header-title {

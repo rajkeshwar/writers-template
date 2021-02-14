@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>मौन गूँज - मुख्य पृष्ठ</title>
+    <!-- Stylesheets -->
+    <%=require('html-loader!./partials/stylesheets.html')%>
+    <!-- End Stylesheets -->
+</head>
+<body>
+    <div class="wrapper bg-light">
+        <!--Header-->
+        <%=require('html-loader!./partials/header.html')%>
+        <!--End Header-->
+
+        <main class="main-content">
+
+          <section class="m-gab-4-top">
+              <div class="col-lg-9 col-xl-7 d-none d-lg-block position-absolute top-0 right-0 pr-0" style="margin-top:-350px;margin-right:-100px">
+                  <img src="/assets/svgs/polygon.svg" alt="">
+              </div>
+
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12 col-md-6 col-lg-4 offset-lg-1 col-xl-4 offset-xl-1">
+                          <p class="text-uppercase h6 text-primary mt-6">अधिकतर पूछे जाने वाले सवाल</p>
+                          <h2 class="h1">सबसे पूछे जाने वाले प्रश्नों का अन्वेषण करें</h2>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-7 col-xl-6 text-right">
+                          <img src="/assets/images/faq.png" width="246" alt="">
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+          <section class="section pt-8">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-9 text-center mb-8">
+                        <p class="lead mb-5">अद्यतन रहने के लिए हमारे न्यूज़लेटर की सदस्यता लें।</p>
+                        <form class="input-round" novalidate="novalidate">
+                            <div class="form-group input-group shadow-sm bg-white">
+                                <input type="text" class="form-control height-inherit pl-4" placeholder="खोजने के लिए लिखें">
+                                <div class="input-group-append p-2">
+                                    <button class="btn btn-primary" type="button">खोज</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <p class="small">अधिक में रुचि रखते हैं ? <a class="m-link-muted" href="#"> पढ़ते रहिये</a> </p>
+                    </div>
+
+                    <div class="col-md-9">
+                      <h3>एफएक्यू यहां होगा ।</h3>
+                  </div>
+                </div>
+
+                <div class="row m-gab-3-top">
+                    <div class="col-md-4 col-lg-4 text-center">
+                        <div class="card border-0 h-100 p-6 px-5 bg-white shadow-10">
+                            <i class="icon-address-1 text-primary fs-50 mb-3"></i>
+                            <h2 class="h5">उत्पाद और व्यापार</h2>
+                            <p>
+                                <a href="mailto:business@yourdomain.com" target="_blank" data-ga="Contact - business@recombee.com">info@moungoonj.com</a>
+                                <br>+900 648 899 075
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 text-center">
+                        <div class="card p-6 border-0 h-100 px-5 bg-primary shadow-10 text-white">
+                            <i class="icon-address-2 text-white fs-50 mb-3"></i>
+                            <h2 class="h5 text-white">ग्राहक सहेयता</h2>
+                            <p>
+                                <a class="link-white" href="mailto:support@yourdomain.com" target="_blank" data-ga="Contact - support@recombee.com">support@moungoonj.com</a>
+                                <br>+910 604 999 078
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 text-center">
+                        <div class="card border-0 h-100 p-6 px-5 bg-white shadow-10">
+                            <i class="icon-address-1 text-primary fs-50 mb-3"></i>
+                            <h2 class="h5">बिक्री</h2>
+                            <p>
+                                <a href="mailto:business@yourdomain.com" target="_blank" data-ga="Contact - business@recombee.com">business@yourdomain.com</a>
+                                <br>+900 648 899 075
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <section class="section m-gab-2-top m-gab-3-bottom text-white bg-primary">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-8">
+                          <h2 class="h3 mb-0">विश्व की सर्वश्रेष्ठ अनुशंसित वेबसाइट का प्रयास करें</h2>
+                          <h3 class="h4 mb-0 o-7">एक पूर्ण 30 दिनों के लिए नि: शुल्क</h3>
+                      </div>
+                      <div class="col-sm-4 pull-right">
+                          <a class="btn btn-light transition-hover mt-3 mb-0 mr-2" target="_blank" href="#"><span>शुरू करें</span></a>
+                          <a class="btn btn-outline-light transition-hover mt-3 mb-0" href="#" target="_self"><span class="text">संपर्क करें</span></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="oval-divider--bottom oval-divider--1"></div>
+          </section>
+      </main>
+
+        <!--Footer-Wrap-->
+        <footer class="border-top border-bottom bg-light">
+            <!-- footer-content -->
+            <%=require('html-loader!./partials/footer-content.html')%>
+            <!-- end footer-content -->
+
+            <hr class="mt-0 mb-1">
+
+            <!-- Copyright -->
+            <%=require('html-loader!./partials/copyrights.html')%>
+            <!-- End Copyright -->
+        </footer>
+        <!--End Footer-Wrap-->
+    </div>
+    <%=require('html-loader!./partials/javascripts.html')%>
+    <script>
+      // $('header#header').addClass('header-transparent');
+    </script>
+</body>
+</html>
